@@ -61,7 +61,7 @@
     position: relative;
     width: 60px;
     height: 60px;
-    rbackground:url('https://paulasanches.github.io/That-is-me/images/close.png');
+    background: url('https://paulasanches.github.io/That-is-me/images/close.png');
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: center;
@@ -100,7 +100,7 @@
 }
 
 .toggle.active {
-    background:url('https://paulasanches.github.io/That-is-me/images/hamburguer.png');
+    background: url('https://paulasanches.github.io/That-is-me/images/hamburguer.png');
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
