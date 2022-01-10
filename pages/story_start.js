@@ -14,15 +14,7 @@ function Movevillain(x, y) {
 
 function DrawMounds(x,y,moundRadius) {    
     ctx.beginPath();
-    ctx.arc(x,y,moundRadius,0,1*Math.PI,true);
-    // Create a radial gradient
-    // The inner circle is at x=110, y=90, with radius=30
-    // The outer circle is at x=100, y=100, with radius=70
-    //var gradient = ctx.createRadialGradient(x,y,30, x,y,30);
-    // Add three color stops
-    //gradient.addColorStop(0, 'rgb(167,116,58)');//'rgb(167,116,58)'; 
-    //gradient.addColorStop(1, 'rgb(170,100,50)');
-    //ctx.fillStyle = gradient;    
+    ctx.arc(x,y,moundRadius,0,1*Math.PI,true);   
     ctx.fillStyle ='rgb(167,116,58)'
     ctx.fill();
 }
@@ -69,7 +61,7 @@ function doKeyDown(event){
 const villain = {
     x:50,
     y:50,
-    speed: 256 //movimento em pixels por segundo
+    speed: 256 
 };
 
 const worm = {};
