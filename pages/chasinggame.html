@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    #villain {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+    }
+    #canvas-wrap { 
+        position:relative 
+    } /* Make this a positioned parent */
+
+    #scoretime { 
+        position:absolute; 
+        top:20px; 
+        left:30px; 
+    }
+</style>
+
+
+<body>
+<div id="canvas-wrap">
+    <canvas id="gamecanvas" width="1024" height="540" style="background-image: url('sand.jpg');"></canvas>    
+    <img src="test.png" id="villain" class="villain" height="70" width="70">
+    <div id="scoretime">Score: 0 Time Left: 60</div>
+</div>
+<script src="story_start.js"></script>
+</body>
+</html>
