@@ -15,7 +15,7 @@ main {
   border-radius: 10px;
 }
 
-.logo, .band-name, .headline {
+.profile, .band-name, .headline {
   margin: 0;
   text-align: center;
 }
