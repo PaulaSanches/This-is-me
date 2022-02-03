@@ -11,7 +11,7 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: #16476f;
-    background-image: url('https://paulasanches.github.io/This-is-me/pages/images/backgroundok.png');
+    background-image: url('https://paulasanches.github.io/This-is-me/images/backgroundok.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -200,7 +200,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: #16476f;
-    background-image: url('https://paulasanches.github.io/This-is-me/pages/images/backgroundok.png');
+    background-image: url('https://paulasanches.github.io/This-is-me/images/backgroundok.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
